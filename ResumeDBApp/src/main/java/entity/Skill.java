@@ -1,8 +1,9 @@
 package entity;
 
 public class Skill {
-    private  int id;
-    private  String name;
+
+    private int id;
+    private String name;
 
     public Skill() {
     }
@@ -30,9 +31,6 @@ public class Skill {
 
     @Override
     public String toString() {
-        return "Skill{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return name;
     }
 }
